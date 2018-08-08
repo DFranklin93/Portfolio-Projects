@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shop</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <<link rel="stylesheet" href="../CSS/CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/CSS/headerFooter.css">
+    <link rel="stylesheet" href="../CSS/CSS/contact.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="ship">
+          <span>FREE SHIPPING WORLDWIDE</span>
+        </div>
+        <div class="background">
+          <div class="whitebar">
+            <div class="logo">
+              <a href="index.html">HATS</a>
+            </div>
+            <div class="cart-menu">
+              <div class="cart">
+                <i class="fas fa-shopping-cart" onclick="openCart()"></i>
+              </div>
+              <div class="list-cart" id="list-cart">
+                <div class="list-cart-header">
+                  <span class="btn-close" onclick="closeCart()">&times;</span>
+                  <span class="header">CART</span>
+                </div>
+                <!-- <li class="btn-close" onclick="closeCart()">X</li> -->
+                <div class='shoppingCart'>
+                  <ul id="show-cart">
+                    <!--  -->
+                  </ul>
+                  <div><span id="total-cart"></span></div>
+                </div>
+              </div>
+              <div class="menu">
+                <i class="fas fa-bars" onclick="openSideMenu()"></i>
+              </div>
+              <div class="side-nav" id="side-menu">
+                <li class="btn-close" onclick="closeSideMenu()">&times;</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </header>
+
+
+  <section onclick="closeSideMenu()">
+    <div class="container">
+      <div class="leftContainer">
+        <div class="customerService">
+          <div class="header">
+            <h2>Customer Serive</h2>
+          </div>
+          <div class="body">
+            <p>Tel: 123-456-7890</p>
+            <p>Email: info@my-domain.com</p>
+          </div>
+        </div>
+        <div class="lineBreak"></div>
+        <div class="stockists">
+          <div class="header">
+            <h2>Stockists</h2>
+          </div>
+          <div class="body">
+            <p><strong>Claim</strong> | 500 Terry Francois St, San Francisco, CA 94158</p>
+            <p><strong>No Regrets</strong> | 500 Terry Francois St, San Francisco, CA 94158</p>
+            <p><strong>Koolit</strong> | 500 Terry Francois St, San Francisco, CA 94158</p>
+            <p><strong>Empire</strong> | 500 Terry Francois St, San Francisco, CA 94158</p>
+            <p><strong>Rollercoaster</strong> | 500 Terry Francois St, San Francisco, CA 94158</p>
+            <p><strong>Always Shine</strong> | 500 Terry Francois St, San Francisco, CA 94158</p>
+          </div>
+        </div>
+      </div>
+      <div class="rightContainer">
+        <div class="contactUs">
+          <div class="header">
+            <h2>Contact us</h2>
+            <h3>with any inquiry</h3>
+          </div>
+          <div class="body">
+            <input type="text" placeholder="Name*" class="inlineBlock inputBorder">
+            <input type="text" placeholder="Email*" class="inlineBlock inputBorder">
+            <input type="text" placeholder="Subject" class="block inputBorder">
+            <textarea name="name" rows="8" cols="80" placeholder="Message" class="block inputBorder"></textarea>
+            <span>Send</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="infoWrapper">
+        <div class="infoOne">
+          <p><a href="shop.html">Shop</a></p>
+          <p><a href="#">stockists</a></p>
+          <p><a href="#">blog</a></p>
+          <p><a href="#">about us</a></p>
+          <p><a href="#">contact</a></p>
+        </div>
+        <div class="infoTwo">
+          <p><a href="#">FAQ</a></p>
+          <p><a href="#">Shipping & Returns</a></p>
+          <p><a href="#">Store Policy</a></p>
+          <p><a href="#">Payment Methonds</a></p>
+        </div>
+      </div>
+      <div class="socialMedia">
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Reproduced by Don S Franklin
+  </footer>
+
+  <script src="../JS/main.js"></script>
+  <script src="../JS/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+section .new-arrivals {
+  padding: 100px 0 10px 0;
+  text-align: center; }
+  section .new-arrivals .header {
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase; }
+  section .new-arrivals .new-arrivals-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 60px 0 40px 0;
+    margin: 0 auto;
+    max-width: 85%;
+    text-align: center; }
+    section .new-arrivals .new-arrivals-product a {
+      color: inherit; }
+    section .new-arrivals .new-arrivals-product img {
+      width: 216.5px;
+      max-width: 100%; }
+    section .new-arrivals .new-arrivals-product span {
+      display: block;
+      font-size: 16px;
+      padding: 0 0 5px 0; }
+    section .new-arrivals .new-arrivals-product p {
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      font-weight: lighter; }
+section .shop-all {
+  text-align: center; }
+  section .shop-all .header {
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase; }
+  section .shop-all .shop-all-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 60px 0 40px 0;
+    margin: 0 auto;
+    max-width: 85%;
+    text-align: center; }
+    section .shop-all .shop-all-product a {
+      color: inherit;
+      padding: 15px; }
+    section .shop-all .shop-all-product img {
+      width: 216.5px;
+      max-width: 100%; }
+    section .shop-all .shop-all-product span {
+      display: block;
+      font-size: 16px;
+      padding: 0 0 5px 0; }
+    section .shop-all .shop-all-product p {
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      font-weight: lighter; }
+
+/*# sourceMappingURL=shop.css.map */

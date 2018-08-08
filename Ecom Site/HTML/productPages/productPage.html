@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shop</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="../../CSS/CSS/reset.css">
+    <link rel="stylesheet" href="../../CSS/CSS/headerFooter.css">
+    <link rel="stylesheet" href="../../CSS/CSS/productPage.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="ship">
+          <span>FREE SHIPPING WORLDWIDE</span>
+        </div>
+        <div class="background">
+          <div class="whitebar">
+            <div class="logo">
+              <a href="../index.html">HATS</a>
+            </div>
+            <div class="cart-menu">
+              <div class="cart">
+                <i class="fas fa-shopping-cart" onclick="openCart()"></i>
+              </div>
+              <div class="list-cart" id="list-cart">
+                <div class="list-cart-header">
+                  <span class="btn-close" onclick="closeCart()">&times;</span>
+                  <span class="header">CART</span>
+                </div>
+                <!-- <li class="btn-close" onclick="closeCart()">X</li> -->
+                <div class='shoppingCart'>
+                  <ul id="show-cart">
+                    <!--  -->
+                  </ul>
+                  <div><span id="total-cart"></span></div>
+                </div>
+              </div>
+              <div class="menu">
+                <i class="fas fa-bars" onclick="openSideMenu()"></i>
+              </div>
+              <div class="side-nav" id="side-menu">
+                <li class="btn-close" onclick="closeSideMenu()">&times;</li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../shop.html">Shop</a></li>
+                <li><a href="../aboutUs.html">About Us</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </header>
+
+
+  <section onclick="closeSideMenu()">
+    <div class="body">
+      <div class="subheader">
+        <div class="directory">
+          <a href="../index.html">home</a> / <a href="../shop.html">shop</a> / <active>Product #1</active>
+        </div>
+        <div class="prevNext">
+          < <a href="productPageTwo.html">Prev</a> | <a href="productPageTwo.html">Next</a> >
+        </div>
+      </div>
+      <div class="productBody">
+        <div class="leftGrid">
+          <div class="productMainImg">
+            <div style="display: inline-block; background: url(https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; width: 100%; height: 0; padding-top: 100%;" id="mainImg" onclick="gettingImg()">
+
+            </div>
+          </div>
+          <div class="productImgSelector">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg" alt="front-view" onclick="changeFrontImg()" id="front-view">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-back-US.jpg" alt="back-view" onclick="changeBackImg()" id="back-view">
+          </div>
+          <p>
+            I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.
+          </p>
+        </div>
+        <div class="rightGrid">
+          <div id="product" class="product-block">
+            <!-- Name -->
+            <!-- <div> -->
+                <h2 id="consoleTest" data-name="productOne" data-sku="001" data-price="25.00">Product #1</h2>
+            <!-- </div> -->
+            <!-- Name -->
+            <!-- SKU -->
+            <div class="sku">
+              Sku: <span id="item-sku"></span>
+            </div>
+            <!-- SKU -->
+            <!-- Price -->
+            <div>
+              $<span id="item-price"></span>
+            </div>
+            <!-- Price -->
+            <!-- Size -->
+            <form>
+              <div class="size-selector">
+                <span>Size:</span>
+                <select name="size" id="item-size" onchange="itemSizing()">
+                  <option class="testing" value="" disabled selected hidden>Select</option>
+                  <option id="testing" value="S">Small</option>
+                  <option class="testing" value="M">Medium</option>
+                  <option class="testing" value="L">Large</option>
+                </select>
+              </div>
+
+            <!-- Size -->
+            <!-- Quantity -->
+            <div class="quant-count">
+              <span>Quantity:</span>
+              <br>
+              <input type="number" name="itemAmount" id="item-amount" value="1" min="1" onchange="countPicker()">
+            </div>
+            <!-- Quantity -->
+            <!-- Add To Cart -->
+
+              <input type="submit" value="Add To Cart" class="add-to-cart">
+
+          </form>
+            <!-- Add To Cart -->
+
+          </div>
+          <div class="productInfo">
+            <div class="header">
+              product info
+            </div>
+            <p>
+              I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.
+            </p>
+          </div>
+          <div class="return">
+            <div class="header">
+              return & refund policy
+            </div>
+            <p>
+              I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers that they can buy with confidence.
+            </p>
+          </div>
+          <div class="shippingInfo">
+            <div class="header">
+              shipping info
+            </div>
+            <p>
+              I'm a shipping policy. I'm a great place to add more information about your shipping methods, packaging and cost. Providing straightforward information about your shipping policy is a great way to build trust and reassure your customers that they can buy from you with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="infoWrapper">
+        <div class="infoOne">
+          <p><a href="shop.html">Shop</a></p>
+          <p><a href="#">stockists</a></p>
+          <p><a href="#">blog</a></p>
+          <p><a href="#">about us</a></p>
+          <p><a href="#">contact</a></p>
+        </div>
+        <div class="infoTwo">
+          <p><a href="#">FAQ</a></p>
+          <p><a href="#">Shipping & Returns</a></p>
+          <p><a href="#">Store Policy</a></p>
+          <p><a href="#">Payment Methonds</a></p>
+        </div>
+      </div>
+      <div class="socialMedia">
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Reproduced by Don S Franklin
+  </footer>
+
+      <script src="../../JS/main.js"></script>
+      <script src="../../JS/cart.js"></script>
+  </body>
+</html>

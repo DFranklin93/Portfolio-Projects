@@ -1,0 +1,58 @@
+section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 150px 0;
+  text-align: center; }
+  section .container .leftContainer .customerService .header h2 {
+    font-size: 1.25em;
+    letter-spacing: 0.2em;
+    padding: 0 0 45px 0; }
+  section .container .leftContainer .customerService .body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px/1.4em;
+    line-height: 1.8em; }
+  section .container .leftContainer .lineBreak {
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    margin: 0 auto; }
+  section .container .leftContainer .stockists {
+    padding: 40px 0 0 0; }
+    section .container .leftContainer .stockists .header h2 {
+      font-size: 1.25em;
+      letter-spacing: 0.2em;
+      padding: 0 0 45px 0; }
+    section .container .leftContainer .stockists .body p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px/1.4em;
+      line-height: 1.8em; }
+      section .container .leftContainer .stockists .body p strong {
+        font-weight: bold; }
+  section .container .rightContainer {
+    text-align: center; }
+    section .container .rightContainer .contactUs .header {
+      text-transform: capitalize; }
+      section .container .rightContainer .contactUs .header h2 {
+        font-size: 1.25em;
+        letter-spacing: 0.2em;
+        padding: 0 0 5px 0; }
+      section .container .rightContainer .contactUs .header h3 {
+        font-size: 1em;
+        padding: 0 0 40px 0; }
+    section .container .rightContainer .contactUs .body .inlineBlock {
+      display: inline-block;
+      margin: 0 35px;
+      width: 190px; }
+    section .container .rightContainer .contactUs .body .block {
+      display: block;
+      margin: 30px auto;
+      width: 450px; }
+    section .container .rightContainer .contactUs .body .inputBorder {
+      border: none;
+      border-bottom: 1px solid black; }
+    section .container .rightContainer .contactUs .body span {
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600; }
+
+/*# sourceMappingURL=contact.css.map */

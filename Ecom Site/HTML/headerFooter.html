@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shop</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="./CSS/CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/CSS/headerFooter.css">
+  </head>
+  <body>
+    <header>
+      <div class="ship">
+        <span>FREE SHIPPING WORLDWIDE</span>
+      </div>
+      <div class="whitebar">
+        <div class="logo">
+          <a href="index.html">HATS</a>
+        </div>
+        <div class="cart-menu">
+          <div class="cart">
+            <i class="fas fa-shopping-cart" onclick="openCart()"></i>
+          </div>
+          <div class="list-cart" id="list-cart">
+            <div class="list-cart-header">
+              <span class="btn-close" onclick="closeCart()">&times;</span>
+              <span class="header">CART</span>
+            </div>
+            <!-- <li class="btn-close" onclick="closeCart()">X</li> -->
+            <div class='shoppingCart'>
+              <ul id="show-cart">
+                <!--  -->
+              </ul>
+              <div><span id="total-cart"></span></div>
+            </div>
+          </div>
+          <div class="menu">
+            <i class="fas fa-bars" onclick="openSideMenu()"></i>
+          </div>
+          <div class="side-nav" id="side-menu">
+            <li class="btn-close" onclick="closeSideMenu()">&times;</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+  <section onclick="closeSideMenu()">
+    <div class="info">
+      <div class="infoOne">
+        <p><a href="#">Shop</a></p>
+        <p><a href="#">stockists</a></p>
+        <p><a href="#">blog</a></p>
+        <p><a href="#">about us</a></p>
+        <p><a href="#">contact</a></p>
+      </div>
+      <div class="infoTwo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </div>
+      <div class="emailInput">
+        <input type="text" placeholder="Email Address">
+        <span>Subscribe</span>
+      </div>
+      <div class="socialMedia">
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Reproduced by Don S Franklin
+  </footer>
+      <script src="../JS/main.js"></script>
+      <script src="../../../cart tutorial/bs-tester-cart.js"></script>
+  </body>
+</html>

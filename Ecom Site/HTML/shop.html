@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shop</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="../CSS/CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/CSS/headerFooter.css">
+    <link rel="stylesheet" href="../CSS/CSS/shop.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="ship">
+          <span>FREE SHIPPING WORLDWIDE</span>
+        </div>
+        <div class="background">
+          <div class="whitebar">
+            <div class="logo">
+              <a href="index.html">HATS</a>
+            </div>
+            <div class="cart-menu">
+              <div class="cart">
+                <i class="fas fa-shopping-cart" onclick="openCart()"></i>
+              </div>
+              <div class="list-cart" id="list-cart">
+                <div class="list-cart-header">
+                  <span class="btn-close" onclick="closeCart()">&times;</span>
+                  <span class="header">CART</span>
+                </div>
+                <!-- <li class="btn-close" onclick="closeCart()">X</li> -->
+                <div class='shoppingCart'>
+                  <ul id="show-cart">
+                    <!--  -->
+                  </ul>
+                  <div><span id="total-cart"></span></div>
+                </div>
+              </div>
+              <div class="menu">
+                <i class="fas fa-bars" onclick="openSideMenu()"></i>
+              </div>
+              <div class="side-nav" id="side-menu">
+                <li class="btn-close" onclick="closeSideMenu()">&times;</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </header>
+
+
+  <section onclick="closeSideMenu()">
+    <div class="new-arrivals">
+      <div class="header">
+        <h2>New Arrivals</h2>
+      </div>
+      <div class="new-arrivals-product">
+        <a href="productPages/productPage.html">
+          <div class="imageOne">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Splattered-Bleach-Black-Strapback-Hat-_291697-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Splattered-Bleach-Black-Strapback-Hat-_291697-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Splattered-Bleach-Black-Strapback-Hat-_291697-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwo">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Rowley-Dress-Blue-%26-Black-Snapback-Hat-_291265-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Rowley-Dress-Blue-%26-Black-Snapback-Hat-_291265-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Rowley-Dress-Blue-%26-Black-Snapback-Hat-_291265-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageThree">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Obey-90s-Jumble-Black-%26-Tan-Snapback-Hat-_291280-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Obey-90s-Jumble-Black-%26-Tan-Snapback-Hat-_291280-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Obey-90s-Jumble-Black-%26-Tan-Snapback-Hat-_291280-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageFour">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Champion-Twill-Mesh-Navy-Snapback-Hat-_289870-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Champion-Twill-Mesh-Navy-Snapback-Hat-_289870-alt1-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Champion-Twill-Mesh-Navy-Snapback-Hat-_289870-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="shop-all">
+      <div class="header">
+        <h2>Shop All</h2>
+      </div>
+      <div class="shop-all-product">
+        <a href="productPages/productPage.html">
+          <div class="imageOne">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dark-Seas-Bill-Fish-Black-Strapback-Hat-_291533-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dark-Seas-Bill-Fish-Black-Strapback-Hat-_291533-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dark-Seas-Bill-Fish-Black-Strapback-Hat-_291533-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwo">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Grizzly-Late-To-The-Game-Strapback-Hat--_291738-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Grizzly-Late-To-The-Game-Strapback-Hat--_291738-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Grizzly-Late-To-The-Game-Strapback-Hat--_291738-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageThree">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/The-Hundreds-Broadway-Indigo-Strapback-Hat-_291673-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/The-Hundreds-Broadway-Indigo-Strapback-Hat-_291673-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/The-Hundreds-Broadway-Indigo-Strapback-Hat-_291673-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageFour">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dark-Seas-Carrier-Green-camo-Snapback-Hat-_291532-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dark-Seas-Carrier-Green-camo-Snapback-Hat-_291532-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dark-Seas-Carrier-Green-camo-Snapback-Hat-_291532-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageFive">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Grade-Camo-Trucker-Hat--_290845-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Grade-Camo-Trucker-Hat--_290845-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Grade-Camo-Trucker-Hat--_290845-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageSix">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Metal-H-Black-Strapback-Hat-_291695-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Metal-H-Black-Strapback-Hat-_291695-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Metal-H-Black-Strapback-Hat-_291695-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageSeven">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Champion-Classic-Twill-Amaranth-Strapback-Hat-_289865-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Champion-Classic-Twill-Amaranth-Strapback-Hat-_289865-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Champion-Classic-Twill-Amaranth-Strapback-Hat-_289865-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageEight">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dravus-Sofa-Black-Five-Panel-Hat-_293974-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dravus-Sofa-Black-Five-Panel-Hat-_293974-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Dravus-Sofa-Black-Five-Panel-Hat-_293974-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageNine">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Worldwide-Ambrosia-Snapback-Hat-_291272-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Worldwide-Ambrosia-Snapback-Hat-_291272-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Worldwide-Ambrosia-Snapback-Hat-_291272-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Just-Have-Fun-Classic-Skate-Mustard-Strapback-Hat-_295070-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Just-Have-Fun-Classic-Skate-Mustard-Strapback-Hat-_295070-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Just-Have-Fun-Classic-Skate-Mustard-Strapback-Hat-_295070-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageEleven">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/4-Hunnid-Rose-Black-Strapback-Hat-_298533-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/4-Hunnid-Rose-Black-Strapback-Hat-_298533-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/4-Hunnid-Rose-Black-Strapback-Hat-_298533-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwelve">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Splattered-Bleach-Red-Strapback-Hat-_291691-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Splattered-Bleach-Red-Strapback-Hat-_291691-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/HUF-Splattered-Bleach-Red-Strapback-Hat-_291691-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageThirteen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Obtuse-II-Black-Snapback-Hat--_299539-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Obtuse-II-Black-Snapback-Hat--_299539-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Obtuse-II-Black-Snapback-Hat--_299539-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageFourteen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Just-Have-Fun-Happy-Place-White-%26-Navy-Strapback-Hat-_295073-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Just-Have-Fun-Happy-Place-White-%26-Navy-Strapback-Hat-_295073-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Just-Have-Fun-Happy-Place-White-%26-Navy-Strapback-Hat-_295073-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageFifthteen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Sketch-Tape-Black-Strapback-Hat-_291271-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Sketch-Tape-Black-Strapback-Hat-_291271-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Sketch-Tape-Black-Strapback-Hat-_291271-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageSixteen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Grizzly-Antique-OG-Bear-Strapback-Hat--_291737-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Grizzly-Antique-OG-Bear-Strapback-Hat--_291737-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Grizzly-Antique-OG-Bear-Strapback-Hat--_291737-front-US.jpg'" alt="">
+            <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageSeventeen">
+            <img
+            src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg'" alt="" > <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageEighteen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Rival-Black-%26-White-Trucker-Hat-_290848-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Rival-Black-%26-White-Trucker-Hat-_290848-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Rival-Black-%26-White-Trucker-Hat-_290848-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageNineteen">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Black-%26-Light-Bone-Camo-Snapback-Hat-_289721-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Black-%26-Light-Bone-Camo-Snapback-Hat-_289721-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Black-%26-Light-Bone-Camo-Snapback-Hat-_289721-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwenty">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Red%2C-White-%26amp%3B-Blue-Trucker-Hat-_284771-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Red%2C-White-%26amp%3B-Blue-Trucker-Hat-_284771-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Red%2C-White-%26amp%3B-Blue-Trucker-Hat-_284771-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwentyOne">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwentyTwo">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Jolt-Black-Trucker-Hat-_290849-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Jolt-Black-Trucker-Hat-_290849-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Jolt-Black-Trucker-Hat-_290849-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwentyThree">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+        <a href="productPages/productPage.html">
+          <div class="imageTwentyFour">
+            <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Petals-by-Petals-%26-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Petals-by-Petals-%26-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Petals-by-Petals-%26-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-front-US.jpg'" alt=""> <span>I'm A Product</span>
+            <p>$25.00</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    <div class="info">
+      <div class="infoWrapper">
+        <div class="infoOne">
+          <p><a href="shop.html">Shop</a></p>
+          <p><a href="#">stockists</a></p>
+          <p><a href="#">blog</a></p>
+          <p><a href="#">about us</a></p>
+          <p><a href="#">contact</a></p>
+        </div>
+        <div class="infoTwo">
+          <p><a href="#">FAQ</a></p>
+          <p><a href="#">Shipping & Returns</a></p>
+          <p><a href="#">Store Policy</a></p>
+          <p><a href="#">Payment Methonds</a></p>
+        </div>
+      </div>
+      <div class="socialMedia">
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Reproduced by Don S Franklin
+  </footer>
+
+  <script src="../JS/main.js"></script>
+  <script src="../JS/main.js"></script>
+  </body>
+</html>

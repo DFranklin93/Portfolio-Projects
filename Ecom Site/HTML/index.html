@@ -1,0 +1,191 @@
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Online Shop</title>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <link rel="stylesheet" href="../CSS/CSS/reset.css">
+      <link rel="stylesheet" href="../CSS/CSS/main.css">
+      <link rel="stylesheet" href="../CSS/CSS/headerFooter.css">
+    </head>
+    <body>
+      <div class="wrapper">
+        <header>
+          <div class="ship">
+            <span>FREE SHIPPING WORLDWIDE</span>
+          </div>
+          <div class="background">
+            <div class="whitebar">
+              <div class="logo">
+                <a href="index.html">HATS</a>
+              </div>
+              <div class="cart-menu">
+                <div class="cart">
+                  <i class="fas fa-shopping-cart" onclick="openCart()"></i>
+                </div>
+                <div class="list-cart" id="list-cart">
+                  <div class="list-cart-header">
+                    <span class="btn-close" onclick="closeCart()">&times;</span>
+                    <span class="header">CART</span>
+                  </div>
+                  <!-- <li class="btn-close" onclick="closeCart()">X</li> -->
+                  <div class='shoppingCart'>
+                    <ul id="show-cart">
+                      <!--  -->
+                    </ul>
+                    <div><span id="total-cart"></span></div>
+                  </div>
+                </div>
+                <div class="menu">
+                  <i class="fas fa-bars" onclick="openSideMenu()"></i>
+                </div>
+                <div class="side-nav" id="side-menu">
+                  <li class="btn-close" onclick="closeSideMenu()">&times;</li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="aboutUs.html">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </header>
+
+        <section onclick="closeSideMenu()">
+          <div class="intro">
+            <div class="text-area">
+              <h1>ALWAYS BE <br> ORIGINAL</h1>
+              <p>NEW ARRIVALS ARE HERE</p>
+              <a href="shop.html">Shop Now</a>
+            </div>
+          </div>
+          <div class="product">
+            <h2>LIMITED EDITION COLLECTION</h2>
+             <div class="product-items">
+               <a href="productPages/productPage.html">
+                 <div class="imageOne">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-back-US.jpg'"# onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageTwo">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Rival-Black-%26-White-Trucker-Hat-_290848-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Rival-Black-%26-White-Trucker-Hat-_290848-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Rival-Black-%26-White-Trucker-Hat-_290848-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageThree">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Black-%26-Light-Bone-Camo-Snapback-Hat-_289721-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Black-%26-Light-Bone-Camo-Snapback-Hat-_289721-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Black-%26-Light-Bone-Camo-Snapback-Hat-_289721-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageFour">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Red%2C-White-%26amp%3B-Blue-Trucker-Hat-_284771-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Red%2C-White-%26amp%3B-Blue-Trucker-Hat-_284771-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nike-SB-Red%2C-White-%26amp%3B-Blue-Trucker-Hat-_284771-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageFive">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageSix">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Jolt-Black-Trucker-Hat-_290849-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Jolt-Black-Trucker-Hat-_290849-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Brixton-Jolt-Black-Trucker-Hat-_290849-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageSeven">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+               <a href="productPages/productPage.html">
+                 <div class="imageEight">
+                   <img src="https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Petals-by-Petals-%26-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-front-US.jpg" onmouseover="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Petals-by-Petals-%26-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-back-US.jpg'" onmouseout="this.src='https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Petals-by-Petals-%26-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-front-US.jpg'" alt=""> <span>I'm A Product</span>
+                   <p>$25.00</p>
+                 </div>
+               </a>
+             </div>
+             <div class="spacer"></div>
+            <a href="shop.html" class="shop-all">Shop All</a>
+          </div>
+          <div class="photos">
+            <h2>#INSTAGRAM</h2>
+            <div class="photo-images">
+              <div class="photo-img-one small-img">
+                <img src="https://scontent.cdninstagram.com/vp/1b2bb8cea9c441c9a36bc48233427e73/5BF1BCFF/t51.2885-15/sh0.08/e35/s640x640/21480040_264185117424369_3129590583803248640_n.jpg?_nc_eui2=AeGSG9iGok5YiedHDpeY_2fSt8GG9jvT703ybyBYDffO4z6VQ-haNSa7OcaHapaB80Gtzfc9qkN0LgghFWdEAjk_" alt="">
+              </div>
+              <div class="photo-img-two">
+                <img src="https://scontent.cdninstagram.com/vp/ebb9dffcb4c65d3695b259cdbee00797/5BF0A95C/t51.2885-15/sh0.08/e35/s640x640/21568660_129516851010316_5251530025479438336_n.jpg?_nc_eui2=AeF6uVkRCwPMyaoUhg0aJ40PLp5CW-s7TKYSnF80Dq6g5BDl1WH1mLRRz6DXVAxwFmOJGKbAYrzz92RVPPhmLOlE" alt="">
+              </div>
+              <div class="photo-img-three">
+                <img src="https://scontent.cdninstagram.com/vp/2bd6e0fad6bd624a38174d9aa8b1ffe0/5BD9A8C7/t51.2885-15/sh0.08/e35/s640x640/21688888_1785701535069712_6092043004908929024_n.jpg?_nc_eui2=AeHDTsh4hK1S4nroeT98uajmJxH3WzjB6jztq-TW5CaPPWEvgnC9pof2mJSrqvJKyVVE2h9mnrsFNAW1pP1GkBwE" alt="">
+              </div>
+              <div class="photo-img-four small-img">
+                <img src="https://scontent.cdninstagram.com/vp/460dd213e85b901b9d49cff155038b9f/5BFBDB4E/t51.2885-15/sh0.08/e35/s640x640/21576484_515389732146532_8410212535902404608_n.jpg?_nc_eui2=AeExX3b3TRWc-3k2IncvC2rHdTPH77uVh92EKpvqM0vXzKvd1hVYk2f_0_AOp1X1LsCfYlyIUQvggI7bOfm0IXFM" alt="">
+              </div>
+              <div class="photo-img-five small-img">
+                <img src="https://scontent.cdninstagram.com/vp/bdec686e568f6af77d5379258f56bea9/5C068972/t51.2885-15/sh0.08/e35/s640x640/21688796_354935598297255_5650346025567649792_n.jpg?_nc_eui2=AeF4w9uJ7xP_AfO3Y1iCTBxlBz62Dm9jmE8xOMqXlCzF8A2hl3GfIUGlMdEYIuLA7dDLpmezDHlAulZakEBgPEdI" alt="">
+              </div>
+              <div class="photo-img-six small-img">
+                <img src="https://scontent.cdninstagram.com/vp/61ba32782fb227c5137dcba77386cc6b/5BD91450/t51.2885-15/sh0.08/e35/s640x640/21576546_829766357180316_8100294288597843968_n.jpg?_nc_eui2=AeH7GWIjdW0eV00GSRMtgqiBVNxjCFpUVZfSfETYTQfhXbF6E8M0Gc2xiXw2ZLDWbd2fh0oNb2WcwnRX9BX9D2Dk" alt="">
+              </div>
+              <div class="photo-img-seven small-img">
+                <img src="https://scontent.cdninstagram.com/vp/4c99d428ce559024ece2abab53394152/5BF355F4/t51.2885-15/sh0.08/e35/s640x640/21688721_126728464644311_5287773712597123072_n.jpg?_nc_eui2=AeFyERheHHzGG-ZraDXKAGg8kZC1Vu0v0TKhS4tHHgxCbzMHtsTDSD15K5egZLWX6c42RU6AOe6VUGINUHzra-2c" alt="">
+              </div>
+              <div class="photo-img-eight small-img">
+                <img src="https://scontent.cdninstagram.com/vp/c1bab04aabc6afb2c2c9fefea6a21e6c/5C0C5281/t51.2885-15/sh0.08/e35/s640x640/21568808_1709128169140118_1652098602501144576_n.jpg?_nc_eui2=AeGTVZ0k_SsokzW7RfhmgQt4HJt7XHQZalmmLGtnFJFgBCujeTutRnpIooGhppyQ9WM-ylMq6UmTBKOa61u71mub" alt="">
+              </div>
+              <div class="photo-img-nine small-img">
+                <img src="https://scontent.cdninstagram.com/vp/5bb22077b879811f5fe5ea75a54f9c87/5BD7593D/t51.2885-15/sh0.08/e35/s640x640/21689287_295169480891028_4115888694722822144_n.jpg?_nc_eui2=AeFITo4KK65OZ31O3AAu8KWcMnD0PHQKfwrITPm1LI7ufTffpY986CwaSPoYlgMB7AGQFej4BExPSIok2s42Pubs" alt="">
+              </div>
+              <div class="photo-img-ten small-img">
+                <img src="https://scontent.cdninstagram.com/vp/495b30af373da7afd5114562dcaf1469/5C0658DB/t51.2885-15/sh0.08/e35/s640x640/21689452_150296702225768_5169945489604345856_n.jpg?_nc_eui2=AeHsErdXucWxowwYZBe3a5dd8UHiOYO9EiRW85yFvm7gwetM98dKP1XLtZs2Eg6u1rl2bZ6m4N1Q-dXEUgkvQG-E" alt="">
+              </div>
+              <div class="photo-img-eleven small-img">
+                <img src="https://scontent.cdninstagram.com/vp/3a55aac3b9985242c1f7bb46b2d02c0e/5BEEB5FA/t51.2885-15/sh0.08/e35/s640x640/21569245_122388071754917_7741209931453300736_n.jpg?_nc_eui2=AeH6WtJ3SHdKfyVDTwwJx2UZzb14f8NbfP9-UI-7wQG1_KO7jfnbhtN9-wcf0VadUALV9GCbPhJThTOfXS40tQ0s" alt="">
+              </div>
+              <div class="photo-img-twelve small-img">
+                <img src="https://scontent.cdninstagram.com/vp/a158cc515639ef68515b3337b3728f2a/5C11C1FA/t51.2885-15/sh0.08/e35/s640x640/21576849_1804903349537894_1794567486662770688_n.jpg?_nc_eui2=AeG2ZIQoySCJvzcVDpFlzsDko_hG9TtzTrK9GKphDcEozR78YkcqQAfOZ5A2XG1PrJ6j4WKGCGTZSwSgf2wkPswP" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="info">
+            <div class="infoWrapper">
+              <div class="infoOne">
+                <p><a href="shop.html">Shop</a></p>
+                <p><a href="#">stockists</a></p>
+                <p><a href="#">blog</a></p>
+                <p><a href="#">about us</a></p>
+                <p><a href="#">contact</a></p>
+              </div>
+              <div class="infoTwo">
+                <p><a href="#">FAQ</a></p>
+                <p><a href="#">Shipping & Returns</a></p>
+                <p><a href="#">Store Policy</a></p>
+                <p><a href="#">Payment Methonds</a></p>
+              </div>
+            </div>
+            <div class="socialMedia">
+
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          Reproduced by Don S Franklin
+        </footer>
+      </div>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="../JS/cart.js"></script>
+        <script src="../JS/main.js"></script>
+    </body>
+  </html>

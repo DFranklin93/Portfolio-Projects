@@ -1,0 +1,72 @@
+section{
+  .new-arrivals{
+    padding: 100px 0 10px 0;
+    text-align: center;
+    .header{
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    }
+    .new-arrivals-product{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      padding: 60px 0 40px 0;
+      margin: 0 auto;
+      max-width: 85%;
+      text-align: center;
+      a{
+        color: inherit;
+      }
+      img{
+        width: 216.5px;
+        max-width: 100%;
+      }
+      span{
+        display: block;
+        font-size: 16px;
+        padding: 0 0 5px 0;
+      }
+      p{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: lighter;
+      }
+    }
+  }
+  .shop-all{
+    text-align: center;
+    .header{
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    }
+    .shop-all-product{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      padding: 60px 0 40px 0;
+      margin: 0 auto;
+      max-width: 85%;
+      text-align: center;
+      a{
+        color: inherit;
+        padding: 15px;
+      }
+      img{
+        width: 216.5px;
+        max-width: 100%;
+      }
+      span{
+        display: block;
+        font-size: 16px;
+        padding: 0 0 5px 0;
+      }
+      p{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: lighter;
+      }
+    }
+  }
+}

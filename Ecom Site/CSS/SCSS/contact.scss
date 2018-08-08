@@ -1,0 +1,118 @@
+section{
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 87%;
+    padding: 150px 0;
+    text-align: center;
+    .leftContainer{
+      .customerService{
+        .header{
+          h2{
+            font-size: 1em;
+            letter-spacing: 0.2em;
+            padding: 0 0 45px 0;
+          }
+        }
+        .body{
+          p{
+            font-family: 'Roboto', sans-serif;
+            font-size: .8em;
+            line-height: 1.8em;
+          }
+        }
+      }
+      .lineBreak{
+        width: 300px;
+        height: 40px;
+        border-bottom: 1px solid black;
+        margin: 0 auto;
+      }
+      .stockists{
+        padding: 40px 0 0 0;
+        .header{
+          h2{
+            font-size: 1em;
+            letter-spacing: 0.2em;
+            padding: 0 0 45px 0;
+          }
+        }
+        .body{
+          p{
+            font-family: 'Roboto', sans-serif;
+            font-size: .8em;
+            line-height: 1.8em;
+            strong{
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+    .rightContainer{
+      text-align: center;
+      .contactUs{
+        .header{
+          text-transform: capitalize;
+          h2{
+            font-size: 1em;
+            letter-spacing: 0.2em;
+            padding: 0 0 5px 0;;
+          }
+          h3{
+            font-size: .8em;
+            padding: 0 0 40px 0;
+          }
+        }
+        .body{
+          .inlineBlock{
+            display: inline-block;
+            margin: 0 35px;
+            max-width: 190px;
+          }
+          .block{
+            display: block;
+            margin: 30px auto;
+            max-width: 450px;
+          }
+          .inputBorder{
+            border: none;
+            border-bottom: 1px solid black;
+          }
+          input{
+            width: 70%;
+          }
+          textarea{
+            width: 70%
+          }
+          span{
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px){
+  section{
+    .container{
+      grid-template-columns: 1fr;
+      max-width: 100%;
+      .rightContainer{
+        .contactUs{
+          padding-top: 30px;
+          input{
+            width: 70%;
+          }
+          textarea{
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}

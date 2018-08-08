@@ -1,0 +1,34 @@
+section {
+  padding: 120px 0 0 0; }
+  section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 87%;
+    margin: 0 auto;
+    padding: 0 0 100px 0; }
+    section .container .aboutUS {
+      background: #181818;
+      color: #fff;
+      display: inline-block;
+      padding: 100px 0;
+      text-align: center;
+      width: 100%; }
+      section .container .aboutUS .header h2 {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        padding: 0 0 40px 0; }
+      section .container .aboutUS .body p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px/1.4em;
+        font-weight: 600;
+        line-height: 2em;
+        padding: 30px 50px 0 50px; }
+
+@media only screen and (max-width: 600px) {
+  section .container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+    section .container .aboutUsImage {
+      display: none !important; } }
+
+/*# sourceMappingURL=aboutUs.css.map */

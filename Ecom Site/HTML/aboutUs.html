@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shop</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="../CSS/CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/CSS/headerFooter.css">
+    <link rel="stylesheet" href="../CSS/CSS/aboutUs.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="ship">
+          <span>FREE SHIPPING WORLDWIDE</span>
+        </div>
+        <div class="background">
+          <div class="whitebar">
+            <div class="logo">
+              <a href="index.html">HATS</a>
+            </div>
+            <div class="cart-menu">
+              <div class="cart">
+                <i class="fas fa-shopping-cart" onclick="openCart()"></i>
+              </div>
+              <div class="list-cart" id="list-cart">
+                <div class="list-cart-header">
+                  <span class="btn-close" onclick="closeCart()">&times;</span>
+                  <span class="header">CART</span>
+                </div>
+                <!-- <li class="btn-close" onclick="closeCart()">X</li> -->
+                <div class='shoppingCart'>
+                  <ul id="show-cart">
+                    <!--  -->
+                  </ul>
+                  <div><span id="total-cart"></span></div>
+                </div>
+              </div>
+              <div class="menu">
+                <i class="fas fa-bars" onclick="openSideMenu()"></i>
+              </div>
+              <div class="side-nav" id="side-menu">
+                <li class="btn-close" onclick="closeSideMenu()">&times;</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+    <section onclick="closeSideMenu()">
+      <div class="container">
+        <div class="aboutUS">
+          <div class="header">
+            <h2>About Us</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class='aboutUsImage' style="display: inline-block; width: 100%; height: 100%; background: url(https://images.unsplash.com/photo-1508749793169-bd8155dd495b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=af0f70f8b0cc115d4e2c16fe805e5214&auto=format&fit=crop&w=401&q=80) no-repeat center center; -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%;"></div>
+      </div>
+      <div class="info">
+        <div class="infoWrapper">
+          <div class="infoOne">
+            <p><a href="shop.html">Shop</a></p>
+            <p><a href="#">stockists</a></p>
+            <p><a href="#">blog</a></p>
+            <p><a href="#">about us</a></p>
+            <p><a href="#">contact</a></p>
+          </div>
+          <div class="infoTwo">
+            <p><a href="#">FAQ</a></p>
+            <p><a href="#">Shipping & Returns</a></p>
+            <p><a href="#">Store Policy</a></p>
+            <p><a href="#">Payment Methonds</a></p>
+          </div>
+        </div>
+        <div class="socialMedia">
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Reproduced by Don S Franklin
+    </footer>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="../JS/cart.js"></script>
+  <script src="../JS/main.js"></script>
+  </body>
+</html>

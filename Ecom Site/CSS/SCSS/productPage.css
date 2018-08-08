@@ -1,0 +1,65 @@
+section .body {
+  background: blue;
+  padding: 130px 0; }
+  section .body .subheader {
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 0 0 70px 0; }
+    section .body .subheader .directory {
+      display: inline-block;
+      float: left; }
+    section .body .subheader .prevNext {
+      display: inline-block;
+      float: right; }
+section .productBody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 70%; }
+  section .productBody .leftGrid {
+    grid-column: 1/2; }
+    section .productBody .leftGrid .productImgSelector img {
+      display: inline-block;
+      width: 20%; }
+    section .productBody .leftGrid p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      text-align: center; }
+  section .productBody .rightGrid {
+    font-family: 'Roboto', sans-serif;
+    grid-column: 2/3;
+    padding: 0 0 0 30px;
+    width: 401px; }
+    section .productBody .rightGrid .product-block h2 {
+      font-size: 1.5em;
+      text-transform: capitalize; }
+    section .productBody .rightGrid .product-block form .size-selector {
+      padding: 15px 0 0 0; }
+      section .productBody .rightGrid .product-block form .size-selector #item-size {
+        background: #fff;
+        display: block;
+        padding: 15px 0 15px 5px;
+        width: 300px; }
+    section .productBody .rightGrid .product-block form .quant-count {
+      padding: 15px 0; }
+      section .productBody .rightGrid .product-block form .quant-count #item-amount {
+        padding: 15px 0 15px 5px;
+        width: 15%; }
+    section .productBody .rightGrid .product-block form .add-to-cart {
+      background: #181818;
+      border: 1px solid #181818;
+      color: #fff;
+      cursor: pointer;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.2s ease-in-out;
+      padding: 15px 0;
+      width: 300px; }
+      section .productBody .rightGrid .product-block form .add-to-cart:hover {
+        background: #fff;
+        border: 1px solid #181818;
+        color: #181818;
+        transition: 0.2s ease-in-out; }
+
+/*# sourceMappingURL=productPage.css.map */
