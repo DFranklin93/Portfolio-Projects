@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="LocalWeather.css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="shad384-rwoIResjU2yc3z8GV/NPeZQAv56rSmL1dC3R/AZzGRnGxQQKnKkoFVHFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="LocalWeather.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+  <div class='container-fluid' id="body">
+
+  <nav class='navbar navbar-inverse navbar-fixed-top'>
+    <div class='navbar-header'>
+      <a class='navbar-brand' href='#'> Current Local Weather</a>
+      <ul class='nav navbar-nav'>
+        <li><a href='https://solowebdev.org/'>Back To Home Page</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class='block'>
+
+      <h1 class='text-center'>
+        <span id='currentTemp'></span>
+      </h1>
+      <h1 class = 'text-center'>
+        <span id='currentWeather'></span>
+      </h1>
+        <h2 class="text-left">Enter Location: </h2>
+
+          <form id="location-form">
+            <input type="text" id="location-input" class="text-left form-control form-control-lg">
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="btn btn-primary"><a href='#' id='toggle'>C&deg;/F&deg;</a></div>
+          </form>
+        <br><span id="formatted-address"></span>
+        <br>City: <span id='city'></span>
+        <br>State: <span id='state'></span>
+        <br>Country: <span id='country'></span>
+        <br>Latitude: <span id='latitude'></span>
+        <br>Longitude: <span id='longitude'></span>
+        <br>
+    </div>
+  </div>
+
+</body>
+</html>

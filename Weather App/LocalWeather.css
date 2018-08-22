@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+html, body {
+  background: no-repeat center center center fixed;
+  background-color: #062f4f;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  overflow-y: show;
+  text-align: center;
+}
+.container-fluid {
+  background-color: #062f4f;
+}
+.container-fluid .navbar .navbar-header {
+  float: none !important;
+}
+.container-fluid .navbar .navbar-header a:hover {
+  color: #286090;
+  transition: 0.2s ease-in-out;
+}
+.container-fluid .navbar .nav {
+  float: right;
+  padding: 0 15px 0 0;
+}
+.container-fluid .navbar .nav li a:hover {
+  color: #286090;
+  transition: 0.2s ease-in-out;
+}
+.block {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5em;
+  margin: 8% auto 3% auto;
+  opacity: 0.75;
+  padding: 50px;
+  padding-bottom: 2%;
+  width: 75%;
+}
+.block #location-form button {
+  margin: 0 2px;
+}
+.block #location-form div a{
+  color: white;
+}
+.block #location-form div a:hover{
+  text-decoration: none;
+}
+.container-fluid .block form input {
+  text-align: center;
+}
+
+@media (max-width: 767px){
+  .container-fluid .navbar .nav {
+    float: right;
+    padding: 0 15px 0 0;
+  }
+  .container-fluid .block {
+    margin: 10% auto 3% auto;
+  }
+}
+
+@media (max-width: 666px){
+  .container-fluid .block {
+    margin: 12% auto 3% auto;
+  }
+}
