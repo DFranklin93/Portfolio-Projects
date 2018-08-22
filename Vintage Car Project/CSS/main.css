@@ -1,0 +1,433 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+html{
+  background-color: #2f2e2e;
+  font-family: sans-serif;
+}
+.fab {
+  transition: 0.3s ease-in-out;
+}
+.fab:hover{
+  color: #696666;
+  transition: 0.3s ease-in-out;
+}
+.wrapper {
+  width: 100%;
+}
+header {
+  background-color: #2f2e2e;
+  font-size: 10px;
+  font-weight: 100;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex: 1 100%;
+  padding: 26px 0 28px 0;
+  width: 100%;
+}
+header .navbar {
+
+  color: #fff;
+  flex: 1 auto;
+  justify-content: flex-end;
+  -webkit-flex-flow: row wrap;
+  text-align: center;
+}
+header .navbar li {
+  cursor: none;
+  display: inline-block;
+  list-style: none;
+}
+header .navbar a {
+  color: white;
+  cursor: pointer;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+header .navbar a:hover{
+  color: #696666;
+  transition: 0.4s ease-in-out;
+}
+header .toggle {
+  display: none;
+}
+header .smallMenu {
+  height: 50%;
+  list-style: none;
+  position: fixed;
+  width: 0;
+  z-index: 1;
+  top: 10.7%;
+  right: -30%;
+  background: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.5s ease-in-out;
+}
+header .smallMenu li {
+  padding: 10px 0 0 0;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  text-transform: capitalize;
+}
+.content-area .intro{
+  padding: 100px 15px 60px 15px;
+  background: url(http://www.wallpapersshock.com/uploads/large/hd-audi-car/free-oldtimer-muscle-car-ultra-hd-wallpapers-download.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-area .intro .logo-area{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.content-area .intro .logo-area img{
+  min-width: 200px;
+  max-width: 600px;
+  width: 100%;
+}
+.content-area .intro .intro-footer{
+  text-align: center;
+  margin: 500px auto 0 auto;
+}
+.content-area .intro .intro-footer a{
+  font-size: 40px;
+  margin: 10px;
+}
+.content-area .services-container{
+  padding: 125px 15px 125px 15px;
+  background: url(https://wallpapercave.com/wp/v4tQ0HK.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-area .services-container .services-header{
+  text-align: center;
+  margin: -10px auto 0 auto;
+  width: 300px;
+}
+.content-area .services-container .services-header span{
+  display: inline-block;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  padding: 0 0 20px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.content-area .services-container .services-header span:after{
+  background: #fff;
+  bottom: 0;
+  content:'';
+  height: 3px;
+  left: calc(50% - 10%);
+  position: absolute;
+  width: 20%;
+}
+.content-area .services-container .services-info{
+  margin: 100px auto 0 auto;
+  text-align: center;
+}
+
+.content-area .services-container .services-info:after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.content-area .services-container .services-info .repairs, .content-area .services-container .services-info .upholstery, .content-area .services-container .services-info .paintwork{
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  flex-direction: row;
+  -webkit-flex-flow: column;
+  width: 32%;
+}
+
+.content-area .services-container .services-info .repairs img, .content-area .services-container .services-info .upholstery img, .content-area .services-container .services-info .paintwork img{
+  color: white;
+  width: 50px;
+  height: 50px;
+  padding: 0 0px 0 4px;
+}
+.content-area .services-container .services-info .repairs .subheading, .content-area .services-container .services-info .upholstery .subheading, .content-area .services-container .services-info .paintwork .subheading{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 30px 0 0 4px;
+}
+.content-area .services-container .services-info .repairs .body p, .content-area .services-container .services-info .upholstery .body p, .content-area .services-container .services-info .paintwork .body p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 10px auto 10px auto;
+  padding: 15px 0 0 4px;
+  width: 200px;
+}
+
+.content-area .work{
+  background-color: #fff;
+  padding: 105px 30px 200px 30px;
+}
+.content-area .work-header{
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+.content-area .work-header span{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 200%;
+  letter-spacing: -1px;
+  position: relative;
+  text-transform: uppercase;
+}
+.content-area .work-header span:after{
+  background: #000;
+  bottom: 0;
+  content:'';
+  height: 3px;
+  left: calc(50% - 10%);
+  position: absolute;
+  width: 20%;
+}
+.content-area .work-header p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 40px 0 0 0;
+}
+.content-area .work .images div:hover{
+  position:relative;
+  top:-25px;
+  left:-5px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+
+.content-area .about-us{
+  padding: 125px 15px 200px 15px;
+  background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content-area .about-us .about-us-container{
+  background-color: #b1aaaa;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+  max-width: 661px;
+  width: 100%;
+  height: auto;
+}
+.content-area .about-us .about-us-container .about-us-header, .content-area .contact .contact-header{
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+.content-area .about-us .about-us-container span, .content-area .contact .contact-header span{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 200%;
+  letter-spacing: -1px;
+  position: relative;
+  text-transform: uppercase;
+}
+.content-area .about-us .about-us-container span::after, .content-area .contact .contact-header span::after{
+  background: #000;
+  bottom: 0;
+  content:'';
+  height: 3px;
+  left: calc(50% - 10%);
+  position: absolute;
+  width: 30%;
+}
+.content-area .about-us .about-us-container p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.938em;
+  font-weight: 300;
+  padding: 40px 100px 0 100px;
+  text-align: center;
+}
+
+.break-img{
+  padding: 400px 15px 400px 15px;
+  background: url(https://images.unsplash.com/photo-1518197529634-614c44a6e6a8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efb246f70ae36225a129828563b6ff13&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content-area .contact{
+  background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 80px 15px 200px 15px;
+}
+.content-area .contact .contact-container{
+  background-color: #b1aaaa;
+  margin: 0 auto 0 auto;
+  padding: 0 0 50px 0;
+  max-width: 750px;
+  width: 100%;
+  height: auto;
+}
+.content-area .contact .contact-container .contact-info{
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px 0 0 0;
+  padding: 0 0 0 70px;
+  width: 35%;
+}
+.content-area .contact .contact-container .contact-info p{
+  margin: 20px 0;
+}
+.content-area .contact .contact-container .contact-input{
+  float: right;
+  margin: 50px 0 0 0;
+  padding: 0 0 0 40px;
+  width: 50%;
+}
+.content-area .contact .contact-container .contact-input input{
+  border: 1px solid #000;
+  margin: 5px 0 5px 0;
+  padding: 10px;
+  width: 300px;
+}
+.content-area .contact .contact-container .contact-input #message{
+  height: 150px;
+  padding: 0 0 110px 8px;
+}
+.content-area .contact .contact-container .contact-input button{
+  background-color: #2f2e2e;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding: 15px;
+  transition: 0.3s ease-in-out;
+  width: inherit;
+}
+.content-area .contact .contact-container .contact-input button:hover{
+  background-color: #696666;
+  transition: 0.3s ease-in-out;
+}
+.content-area .contact .contact-container:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+  background-color: #2f2e2e;
+  height: 100px;
+  text-align: center;
+}
+footer .footer-icons{
+  font-size: 30px;
+  margin: 30px 0 10px 0;
+  transition: 0.3s ease-in-out;
+}
+footer .footer-icons a{
+  margin: 5px;
+}
+footer .copyright{
+  font-size: 15px;
+}
+
+
+@media all and (max-width: 768px){
+  .content-area .services-container .services-info .repairs, .content-area .services-container .services-info .upholstery, .content-area .services-container .services-info .paintwork{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 100%;
+  }
+}
+@media all and (max-width: 600px){
+  header ul{
+    display: none;
+  }
+  header .toggle {
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+}
+@media all and (max-width: 425px){
+  .content-area .intro .intro-footer {
+    margin: 200px auto 0 auto;
+  }
+  .content-area .services-container .services-info .repairs .body p, .content-area .services-container .services-info .upholstery .body p, .content-area .services-container .services-info .paintwork .body p {
+    padding: 15px 0;
+    width: 100%;
+  }
+  .content-area .work .images div{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .content-area .about-us .about-us-container p{
+    padding: 40px 50px 0 50px;
+  }
+  .content-area .contact .contact-container .contact-info{
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 80%;
+  }
+  .content-area .contact .contact-container .contact-input{
+    display: block;
+    float: none;
+    width: 88%;
+  }
+  .content-area .contact .contact-container .contact-input input{
+    max-width: 300px;
+    width: 100%;
+  }
+  .content-area .contact .contact-container .contact-input #message{
+    padding: 0 0 110px 19px;
+  }
+  .content-area .contact .contact-container .contact-input button{
+    float: left;
+    margin: auto;
+    padding: 15px;
+    width: 40%;
+  }
+}
