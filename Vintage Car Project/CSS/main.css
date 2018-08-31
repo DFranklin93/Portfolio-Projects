@@ -32,9 +32,9 @@ header {
   flex: 1 100%;
   padding: 26px 0 28px 0;
   width: 100%;
+  z-index: 1;
 }
 header .navbar {
-
   color: #fff;
   flex: 1 auto;
   justify-content: flex-end;
@@ -62,28 +62,30 @@ header .toggle {
   display: none;
 }
 header .smallMenu {
-  height: 50%;
+  height: 0;/*Fades in from top*/
+  /*height: 100%; Fades in from side*/
   list-style: none;
   position: fixed;
-  width: 0;
+  /* width: 0; Fades in from side*/
+  width: 100%;/* Fades in from top*/
   z-index: 1;
-  top: 10.7%;
-  right: -30%;
+  right: 0;
   background: #111;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   overflow-x: hidden;
-  padding-top: 50px;
   transition: 0.5s ease-in-out;
 }
 header .smallMenu li {
-  padding: 10px 0 0 0;
-  font-size: 22px;
+  /* padding: 0 0 10px 0; */
+  font-size: 2em;
   color: #ccc;
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  position: relative;
   transition: 0.3s ease-in-out;
-  text-align: center;
+  /* text-align: center; */
   text-transform: capitalize;
+  top: 10%;
 }
 .content-area .intro{
   padding: 100px 15px 60px 15px;
@@ -379,6 +381,9 @@ footer .copyright{
   }
 }
 @media all and (max-width: 600px){
+  header{
+    position: fixed;
+  }
   header ul{
     display: none;
   }
