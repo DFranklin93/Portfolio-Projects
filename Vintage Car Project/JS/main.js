@@ -1,6 +1,9 @@
 (
 function($) {
   var headerHeight = $('header').outerHeight();
+  var screenHeight = window.screen.height;
+  // trying to use screen height in order to place divs perfect for each screen
+  console.log(window.screen.height);
   $(document).ready(function(){
     //Smooth scroll function
     $('.slide-section').click(function(e) {
@@ -21,10 +24,23 @@ function($) {
     // Placement of the smallMenu right under the smaller screen navbar
     $('.smallMenu').css({'top': headerHeight});
     // Creates responsive padding for content divs
-    introPadding = headerHeight + 120 +'px' + ' 15px 60px 15px';
+    introPadding = headerHeight +'px' + ' 15px';
     $('.intro').css({'padding': introPadding});
+    // Makes intro fit to screen Height
+    $('.intro').css({'height': screenHeight});
     // Hamburger menu opening and closing function
     $('.toggle').click(function(){
+      if($('.smallMenu').height() === 0){
+        $('.smallMenu').css({'height':'100%'});
+        $('html, body').css({'overflow':'hidden'});
+      }else if($(".smallMenu").css({'height':'100%'})){
+        $('html, body').css({'overflow':'visible'});
+        $('.smallMenu').css({'height':0});
+      }
+    });
+    // Hamburger meneu touchevent
+    $('.toggle').on('tap',function(){
+      console.log('on tap');
       if($('.smallMenu').height() === 0){
         $('.smallMenu').css({'height':'100%'});
         $('html, body').css({'overflow':'hidden'});

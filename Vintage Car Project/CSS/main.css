@@ -102,12 +102,12 @@ header .smallMenu li {
 }
 .content-area .intro .logo-area img{
   min-width: 200px;
-  max-width: 600px;
+  max-width: 450px;
   width: 100%;
 }
 .content-area .intro .intro-footer{
   text-align: center;
-  margin: 500px auto 0 auto;
+  margin: 20% auto 0 auto;
 }
 .content-area .intro .intro-footer a{
   font-size: 40px;
