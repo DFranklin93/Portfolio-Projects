@@ -1,0 +1,252 @@
+#content-area{
+  min-height: 100vh;
+  overflow: auto;
+  width: 100%;
+}
+#filter{
+  background: $grey;
+  display: inline-block;
+  float: left;
+  width: 25%;
+
+  .inside{
+    padding: 20px;
+    max-width: 300px;
+  }
+
+  h4{
+    font-size: .9rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+
+  select{
+    background: transparent;
+    color: #1b1b1b;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    width: 100%;
+    // padding: 10px;
+  }
+
+  .filters{
+    .title{
+      color: $darkgrey;
+      display: block;
+      font-size: 0.9rem;
+      margin:0 0 1rem 0;
+    }
+
+    input[type="text"]{
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 1rem;
+      margin: 0 2.5% 1rem 0;
+      width: 45%;
+    }
+    &.extras{
+      label{
+        display: block;
+        padding: 10px 0;
+        input[type="checkbox"]{
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+#listings{
+  background: $offwhite;
+  display: inline-block;
+  float: left;
+  padding: 15px;
+  width: 70%;
+  .search-area{
+    input[type="text"]{
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid $darkgrey;
+      color: $lightgrey;
+      font-size: 2rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+      width: 70%;
+    }
+  }
+  .sortby-area{
+    margin: 0 0 20px 0;
+    .results{
+      color: $darkgrey;
+      display: inline-block;
+      font-size: .8rem;
+    }
+    .sort-options{
+      float: right;
+      select{
+        background: transparent;
+        border: 1px solid $lightgrey;
+        display: inline-block;
+        font-size: .9rem;
+        font-weight: 300;
+        margin: 0 15px 0 0;
+        padding: 5px;
+        vertical-align: top;
+      }
+      .view{
+        display: inline-block;
+
+        .fas{
+          font-size: 1.5rem;
+          margin: 0 15px 0 0;
+        }
+      }
+    }
+  }
+  .listings-results{
+    margin: 0 0 339px 0;
+    .listing{
+      background: #fff;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 9px 54px -4px rgba(176,176,176,1);
+      -moz-box-shadow: 0px 9px 54px -4px rgba(176,176,176,1);
+      box-shadow: 0px 9px 54px -4px rgba(176,176,176,1);
+      min-width: 200px;
+      max-height: 305px;
+    }
+    .listing-img{
+      -webkit-border-top-left-radius: 5px;
+      -webkit-border-top-right-radius: 5px;
+      -moz-border-radius-topleft: 5px;
+      -moz-border-radius-topright: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      color: white;
+      min-height: 200px;
+      min-width: 200px;
+      padding: 15px;
+      position: relative;
+      transition: all .3s ease-in-out;
+      &:hover{
+        .details{
+          opacity: 1;
+        }
+        .address{
+          opacity: 0;
+        }
+      }
+      .address{
+        bottom: 20px;
+        text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+        opacity: 1;
+        position: absolute;
+        text-transform: capitalize;
+        transition: all .3s ease-in-out;
+      }
+      .details{
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#693ec1+2,ad1283+67,cb60b3+100 */
+        background: rgba(105,62,193, .8); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(105,62,193,.8) 2%, rgba(173,18,131,.8) 67%, rgba(203,96,179,.8) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(105,62,193,.8) 2%,rgba(173,18,131,.8) 67%,rgba(203,96,179,.8) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(105,62,193,.8) 2%,rgba(173,18,131,.8) 67%,rgba(203,96,179,.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        padding: 20px;
+        position: absolute;
+
+        .user-img{
+
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          border: 2px solid white;
+          border-radius: 50%;
+          display: inline-block;
+          height: 35px;
+          text-align: center;
+          width: 35px;
+        }
+        .user-details{
+          display: inline-block;
+          margin: 0 0 0 20px;
+          text-align: center;
+          width: 70%;
+          vertical-align: top;
+          .user-name{
+            color: rgba(255,255,255,1);
+            display: block;
+            font-size: .9rem;
+            font-weight: 300;
+            padding: 0 0 3px 0;
+          }
+          .post-date{
+            color: rgba(255,255,255,.7);
+            display: block;
+            font-size: .9rem;
+          }
+        }
+        .listing-details{
+          margin: 20px 0 0 0;
+          .fas{
+            display: inline-block;
+            font-size: 20px;
+            margin: 0 15px 0 0;
+            vertical-align: top;
+          }
+          span{
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .bottom-info{
+      padding: 20px 15px;
+      .price{
+        color: $darkgrey;
+        display: block;
+        font-size: 0.4vh;
+        margin: 0 0 10px 0;
+      }
+      .location{
+        color: $lightgrey;
+        display: block;
+        font-size: 0.8vh;
+      }
+    }
+  }
+}
+
+#pagination{
+  text-align: center;
+  .pages{
+    background: white;
+    -webkit-box-shadow: 0px 9px 54px -4px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 9px 54px -4px rgba(176,176,176,1);
+    box-shadow: 0px 9px 54px -4px rgba(176,176,176,1);
+    display: inline-block;
+    li{
+      display: inline-block;
+      padding: 20px 30px;
+      &.active,&:hover{
+        background: $pink;
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+      }
+    }
+  }
+}
