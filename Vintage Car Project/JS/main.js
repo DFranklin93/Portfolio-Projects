@@ -21,7 +21,7 @@ function($) {
     // Placement of the smallMenu right under the smaller screen navbar
     $('.smallMenu').css({'top': headerHeight});
     // Creates responsive padding for content divs
-    introPadding = headerHeight + 120 +'px' + ' 15px 60px 15px';
+    introPadding = headerHeight + 'px' + ' 15px 60px 15px';
     $('.intro').css({'padding': introPadding});
     // Hamburger menu opening and closing function
     $('.toggle').click(function(){
