@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='main.css'>
+    <title>Drum Machine</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="keyBoard">
+        <div class="keyBlock" id='S'>
+          <div class="letter">
+            S
+          </div>
+          <div class="instrument">
+            CLAP
+          </div>
+        </div>
+        <div class="keyBlock" id='D'>
+          <div class="letter">
+            D
+          </div>
+          <div class="instrument">
+            HI HAT
+          </div>
+        </div>
+        <div class="keyBlock" id='F'>
+          <div class="letter">
+            F
+          </div>
+          <div class="instrument">
+            KICK
+          </div>
+        </div>
+        <div class="keyBlock" id='J'>
+          <div class="letter">
+            J
+          </div>
+          <div class="instrument">
+            OPENHAT
+          </div>
+        </div>
+        <div class="keyBlock" id='K'>
+          <div class="letter">
+            K
+          </div>
+          <div class="instrument">
+            SNARE
+          </div>
+        </div>
+        <div class="keyBlock" id='L'>
+          <div class="letter">
+            L
+          </div>
+          <div class="instrument">
+            TOM
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key='s' src="sounds/clap-808.wav"></audio>
+    <audio data-key='d' src="sounds/hihat-808.wav"></audio>
+    <audio data-key='f' src="sounds/kick-808.wav"></audio>
+    <audio data-key='j' src="sounds/openhat-808.wav"></audio>
+    <audio data-key='k' src="sounds/snare-808.wav"></audio>
+    <audio data-key='l' src="sounds/tom-808.wav"></audio>
+  </body>
+  <script>
+    document.addEventListener("keydown", function(event){
+      var audio = document.querySelector(`audio[data-key="${event.key}"]`);
+      if(!audio) return;
+      if(event.key === 's'){
+        var a = document.getElementById('S');
+        a.classList.add('playing');
+        audio.play();
+        document.addEventListener("keyup", function(event){
+          a.classList.remove('playing');
+          audio.pause();
+          audio.currentTime = 0;
+        }); return;
+      }else if(event.key === 'd'){
+        var a = document.getElementById('D');
+        a.classList.add('playing');
+        audio.play();
+        document.addEventListener("keyup", function(event){
+          a.classList.remove('playing');
+          audio.pause();
+          audio.currentTime = 0;
+        });
+      }else if(event.key === 'f'){
+        var a = document.getElementById('F');
+        a.classList.add('playing');
+        audio.play();
+        document.addEventListener("keyup", function(event){
+          a.classList.remove('playing');
+          audio.pause();
+          audio.currentTime = 0;
+        });
+      }else if(event.key === 'j'){
+        var a = document.getElementById('J');
+        a.classList.add('playing');
+        audio.play();
+        document.addEventListener("keyup", function(event){
+          a.classList.remove('playing');
+          audio.pause();
+          audio.currentTime = 0;
+        });
+      }else if(event.key === 'k'){
+        var a = document.getElementById('K');
+        a.classList.add('playing');
+        audio.play();
+        document.addEventListener("keyup", function(event){
+          a.classList.remove('playing');
+          audio.pause();
+          audio.currentTime = 0;
+        });
+      }else if(event.key === 'l'){
+        var a = document.getElementById('L');
+        a.classList.add('playing');
+        audio.play();
+        document.addEventListener("keyup", function(event){
+          a.classList.remove('playing');
+          audio.pause();
+          audio.currentTime = 0;
+        });
+      }
+    });
+  </script>
+</html>

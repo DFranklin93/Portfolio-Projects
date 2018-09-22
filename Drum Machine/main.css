@@ -1,0 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Above is reset */
+
+/* Below is main */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  background: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=da90b7e324f7b8884b268bb4aaf62fcb&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.wrapper {
+  width: 100%;
+}
+.keyBoard {
+	left: 0px;
+  margin: 0 auto;
+  max-width: 100%;
+	position: fixed;
+	right: 0px;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.keyBlock {
+  background: #6404B6;
+	border: 2px solid #EF1551;
+  color: white;
+  display: inline-block;
+  text-align: center;
+	margin: 0 1%;
+  width: 5%;
+	/* min-width: 10%; */
+}
+.keyBlock .letter {
+	font-size: 1.5em;
+	padding-top: 14%;
+}
+.keyBlock .instrument {
+	font-size: 0.8em;
+	padding: 14% 0;
+}
+/* Below is css for when a key is pressed */
+.playing {
+	background: rgba(211,11,47, .6);
+	border: 5px solid #EF1551;
+}
+/* Above is css for when a key is pressed */
