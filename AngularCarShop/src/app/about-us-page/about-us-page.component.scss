@@ -1,0 +1,51 @@
+.about-us{
+  background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: -webkit-fill-available;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  left: 15vw;
+  width: 85vw;
+  .about-us-container{
+    background-color: #blaaaa;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    max-width: 661px;
+    width: 100%;
+    height: auto;
+    .about-us-header{
+      text-align: center;
+      padding: 50px 0 30px 0;
+      span{
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 200%;
+        letter-spacing: -1px;
+        position: relative;
+        text-transform: uppercase;
+        &:after{
+          background: #000;
+          bottom: 0;
+          content: '';
+          height: 3px;
+          left: calc(50% - 10%);
+          position: absolute;
+          width: 30%
+        }
+      }
+    }
+    p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: .938em;
+      font-weight: 300;
+      padding: 40px 100px 0 100px;
+      text-align: center;
+    }
+  }
+}

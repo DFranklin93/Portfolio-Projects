@@ -1,0 +1,51 @@
+.work{
+  background-color: #fff;
+  left: 15vw;
+  height: -webkit-fill-available;
+  top: 0;
+  position: fixed;
+  width: 85vw;
+  .work-header{
+    text-align: center;
+    padding: 0 0 30px 0;
+    span{
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
+      font-weight: 300;
+      line-height: 300;
+      line-height: 200%;
+      letter-spacing: -1px;
+      position: relative;
+      text-transform: uppercase;
+      &:after{
+        background: #000;
+        bottom: 0;
+        content: '';
+        height: 3px;
+        left: calc(50% - 10%);
+        position: absolute;
+        width: 20%;
+      }
+    }
+    p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      padding: 40px 0 0 0;
+    }
+  }
+  .images{
+    div{
+      &:hover{
+        display: block;
+        height: auto;
+        left: -5px;
+        position: relative;
+        top: -25px;
+        width: 500px;
+        z-index: 999;
+      }
+    }
+  }
+}

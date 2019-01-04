@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LightboxModule } from 'ngx-lightbox';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -11,6 +12,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { OurWorkPageComponent } from './our-work-page/our-work-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { LightboxtestComponent } from './lightboxtest/lightboxtest.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     HomePageComponent,
     OurWorkPageComponent,
     AboutUsPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    LightboxtestComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
