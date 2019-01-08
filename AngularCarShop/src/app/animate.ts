@@ -20,16 +20,21 @@ export const fadeAnimation = trigger('fadeAnimation', [
     //   [style({ opacity: 1 })],
     //   { optional: true }
     // ),
-    query(':leave', [
-      stagger(100, [
+    query(
+      ':leave',
+      [stagger(100, [
         animate('0.5s', style({ opacity: 0 }))
-      ])
-    ]),
-    query(':enter', [
-      // style({ opacity: 0 }),
-      stagger(100, [
+        ]
+      )],
+      { optional: true }
+     ),
+    query(
+      ':enter',
+      [stagger(100, [
         animate('0.5s', style({ opacity: 1 }))
-      ])
-    ]),
+        ]
+      )],
+      { optional: true }
+    ),
   ])
 ]);

@@ -1,62 +1,55 @@
-.completeContainer{
-  left: 15vw;
-  height: -webkit-fill-available;
-  top: 0;
-  position: fixed;
-  width: 85vw;
-  .contact{
-    background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    .contact-container{
-      background-color: #blaaaa;
-      margin: 0 auto;
-      padding: 0 0 50px 0;
-      max-width: 750px;
-      width: 100%;
-      height: auto;
-      .contact-info{
-        float: left;
-        font-family: 'Montserrat', sans-serif;
-        margin: 40px 0 0 0;
-        padding: 0 0 0 70px;
-        width: 35%;
-        p{
-          margin: 20px 0;
-        }
+.contact{
+  background: url(../../assets/contact-page-bg.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .contact-container{
+    background-color: rgba(179, 170, 170, 1);
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    .contact-info{
+      float: left;
+      font-family: 'Montserrat', sans-serif;
+      margin: 40px 0 0 0;
+      padding: 0 0 0 70px;
+      width: 35%;
+      p{
+        margin: 20px 0;
       }
-      .contact-input{
-        float: right;
-        margin: 50px 0 0 0;
-        padding: 0 0 0 40px;
-        width: 300px;
-        #message{
-          height: 150px;
-          padding: 0 0 110px 8px;
+    }
+    .contact-input{
+      float: right;
+      margin: 50px 0 0 0;
+      padding: 0 0 0 40px;
+      width: 300px;
+      #message{
+        height: 150px;
+        padding: 0 0 110px 8px;
 
-        }
-        button{
-          background-color: #2f2e2e;
-          border: none;
-          color: #fff;
-          cursor: pointer;
-          float: left;
-          font-family: 'Montserrat'  , sans-serif;
-          font-weight: 200;
-          padding: 15px;
+      }
+      button{
+        background-color: #2f2e2e;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+        font-family: 'Montserrat'  , sans-serif;
+        font-weight: 200;
+        padding: 15px;
+        transition: .3s ease-in-out;
+        width: inherit;
+        &:hover{
+          background-color: #696666;
           transition: .3s ease-in-out;
-          width: inherit;
-          &:hover{
-            background-color: #696666;
-            transition: .3s ease-in-out;
-          }
-          &:after{
-            content: '';
-            display: table;
-            clear: both;
-          }
+        }
+        &:after{
+          content: '';
+          display: table;
+          clear: both;
         }
       }
     }
@@ -77,5 +70,19 @@
       font-size: 15px;
     }
   }
-
+}
+////////////////////////////////
+@media screen and (min-width: 769px){
+  .contact{
+    height: -webkit-fill-available;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    .contact-container{
+      left: 15vw;
+      position: 15vw;
+      width: 85vw;
+    }
+  }
 }

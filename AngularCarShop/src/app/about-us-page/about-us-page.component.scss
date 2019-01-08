@@ -1,25 +1,26 @@
 .about-us{
+  align-items: center;
   background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  display: flex;
   height: -webkit-fill-available;
-  justify-content: space-evenly;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 15vw;
   width: 85vw;
   .about-us-container{
-    background-color: #blaaaa;
+    background-color: rgba(177, 170, 170, .97);
     margin: 0 auto;
-    padding: 0 0 50px 0;
-    max-width: 661px;
+    max-width: 48vw;
     width: 100%;
     height: auto;
     .about-us-header{
+      padding: 4vw 0 0;
       text-align: center;
-      padding: 50px 0 30px 0;
       span{
         display: inline-block;
         font-family: 'Montserrat', sans-serif;
@@ -40,12 +41,15 @@
         }
       }
     }
-    p{
-      font-family: 'Montserrat', sans-serif;
-      font-size: .938em;
-      font-weight: 300;
-      padding: 40px 100px 0 100px;
-      text-align: center;
+    .about-us-body{
+      padding: 2vw 0 5vw;
+      p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: .938em;
+        font-weight: 300;
+        padding: 2vw 9vw 0;
+        text-align: center;
+      }
     }
   }
 }
