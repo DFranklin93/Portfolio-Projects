@@ -1,24 +1,85 @@
-.about-us{
+// .about-us{
+//   align-items: center;
+//   background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   display: flex;
+//   height: -webkit-fill-available;
+//   justify-content: center;
+//   // position: fixed;
+//   // top: 0;
+//   // left: 15vw;
+//   // width: 85vw;
+//   .about-us-container{
+//     background-color: rgba(177, 170, 170, .97);
+//     left: 15vw;
+//     margin: 0 auto;
+//     max-width: 48vw;
+//     position: fixed;
+//     top: 0;
+//     width: 85vw;
+//     height: auto;
+//     .about-us-header{
+//       padding: 4vw 0 0;
+//       text-align: center;
+//       span{
+//         display: inline-block;
+//         font-family: 'Montserrat', sans-serif;
+//         font-size: 35px;
+//         font-weight: 300;
+//         line-height: 200%;
+//         letter-spacing: -1px;
+//         position: relative;
+//         text-transform: uppercase;
+//         &:after{
+//           background: #000;
+//           bottom: 0;
+//           content: '';
+//           height: 3px;
+//           left: calc(50% - 10%);
+//           position: absolute;
+//           width: 30%
+//         }
+//       }
+//     }
+//     .about-us-body{
+      // padding: 2vw 0 5vw;
+      // p{
+      //   font-family: 'Montserrat', sans-serif;
+      //   font-size: .938em;
+      //   font-weight: 300;
+      //   padding: 2vw 9vw 0;
+      //   text-align: center;
+//       }
+//     }
+//   }
+// }
+
+.about-us-wrapper{
   align-items: center;
-  background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  display: flex;
-  height: -webkit-fill-available;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 15vw;
-  width: 85vw;
-  .about-us-container{
+    background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    height: -webkit-fill-available;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  .content{
     background-color: rgba(177, 170, 170, .97);
+    left: 15vw;
     margin: 0 auto;
     max-width: 48vw;
-    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 85vw;
     height: auto;
-    .about-us-header{
+    .header{
       padding: 4vw 0 0;
       text-align: center;
       span{
@@ -40,8 +101,11 @@
           width: 30%
         }
       }
+      // .underline{
+      //
+      // }
     }
-    .about-us-body{
+    .body{
       padding: 2vw 0 5vw;
       p{
         font-family: 'Montserrat', sans-serif;
