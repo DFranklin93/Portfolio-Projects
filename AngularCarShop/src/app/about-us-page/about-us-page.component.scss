@@ -58,7 +58,7 @@
 // }
 
 .about-us-wrapper{
-  align-items: center;
+    align-items: center;
     background: url(http://wallpaper-gallery.net/images/wallpaper-tools/wallpaper-tools-12.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -66,17 +66,14 @@
     -o-background-size: cover;
     display: flex;
     height: -webkit-fill-available;
+    justify-content: center;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
   .content{
     background-color: rgba(177, 170, 170, .97);
-    left: 15vw;
-    margin: 0 auto;
     max-width: 48vw;
-    position: fixed;
-    top: 0;
     width: 85vw;
     height: auto;
     .header{
@@ -101,9 +98,6 @@
           width: 30%
         }
       }
-      // .underline{
-      //
-      // }
     }
     .body{
       padding: 2vw 0 5vw;
