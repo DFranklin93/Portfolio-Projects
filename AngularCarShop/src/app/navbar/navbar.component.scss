@@ -37,12 +37,11 @@ header{
     left: 0;
     position: sticky;
     top: 0;
-    width: 15vw;
+    width: 10vw;
     ul{
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
-      top: 3vw;
+      justify-content: space-evenly;
       width: 100%;
       li{
         display: flex;
