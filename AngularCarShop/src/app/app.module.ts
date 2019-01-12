@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LightboxModule } from 'ngx-lightbox';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +14,7 @@ import { OurWorkPageComponent } from './our-work-page/our-work-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { LightboxtestComponent } from './lightboxtest/lightboxtest.component';
+import { BookingPageComponent } from './booking-page/booking-page.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +25,15 @@ import { LightboxtestComponent } from './lightboxtest/lightboxtest.component';
     OurWorkPageComponent,
     AboutUsPageComponent,
     ContactPageComponent,
-    LightboxtestComponent
+    LightboxtestComponent,
+    BookingPageComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    LightboxModule
+    LightboxModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
