@@ -8,6 +8,8 @@ import * as $ from 'jquery';
 })
 export class HomePageComponent implements OnInit {
 
+  name = 'Car Shop Inc';
+
   constructor() { }
 
   ngOnInit() {

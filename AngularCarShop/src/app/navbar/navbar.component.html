@@ -3,23 +3,8 @@
     <li class="logo">
       <img _ngcontent-c2="" alt="Logo" src="../../assets/logo.svg">
     </li>
-    <li>
-      <a routerLink="/">Home</a>
-    </li>
-    <li>
-      <a routerLink="/services">Services</a>
-    </li>
-    <li>
-      <a routerLink="/ourwork">Our Work</a>
-    </li>
-    <li>
-      <a routerLink="/aboutus">About Us</a>
-    </li>
-    <li>
-      <a routerLink="/booking">Booking</a>
-    </li>
-    <li>
-      <a routerLink="/contact">Contact</a>
+    <li *ngFor="let menu of menu">
+      <a routerLink = '{{ menu.link }}'>{{ menu.name | titlecase }}</a>
     </li>
   </ul>
   <div class="toggle">
