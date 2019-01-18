@@ -10,7 +10,6 @@ import { MENU } from '../menuItems';
 export class NavbarComponent implements OnInit {
 
   menu = MENU;
-  random = 'random';
 
   constructor() {  }
 

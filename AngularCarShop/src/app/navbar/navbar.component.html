@@ -11,13 +11,8 @@
     <i class="fas fa-bars"></i>
   </div>
   <div class="mobileNav">
-    <li>
-      <a routerLink="/">Home</a>
-      <a routerLink="/services">Services</a>
-      <a routerLink="/ourwork">Our Work</a>
-      <a routerLink="/aboutus">About Us</a>
-      <a routerLink="/booking">Booking</a>
-      <a routerLink="/contact">Contact</a>
+    <li *ngFor="let menu of menu">
+      <a routerLink = '{{ menu.link }}'>{{ menu.name | titlecase }}</a>
     </li>
   </div>
 </header>

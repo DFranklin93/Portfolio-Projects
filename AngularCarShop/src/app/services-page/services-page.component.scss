@@ -36,6 +36,7 @@
     .services-info{
       margin: 100px auto 0 auto;
       text-align: center;
+      width: 80vw;
       &:after{
         clear: both;
         content: "";
@@ -158,10 +159,5 @@
     position: fixed;
     top: 0;
     width: 100%;
-    .container{
-      left: 15vw;
-      position: relative;
-      width: 85vw;
-    }
   }
 }

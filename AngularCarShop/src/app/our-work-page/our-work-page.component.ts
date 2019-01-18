@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Pictures } from './our-work';
+import { PICTURES } from './our-work-items';
 
 @Component({
   selector: 'app-our-work-page',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-work-page.component.scss']
 })
 export class OurWorkPageComponent implements OnInit {
+
+  pictures = PICTURES;
 
   constructor() { }
 
