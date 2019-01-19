@@ -5,6 +5,6 @@ export const MENU: Menu[] = [
   { name: 'services', link: '/services' },
   { name: 'our work', link: '/ourwork' },
   { name: 'about us', link: '/aboutus' },
-  { name: 'booking', link: '/booking' },
+  // { name: 'booking', link: '/booking' },
   { name: 'contact', link: '/contact' }
 ];

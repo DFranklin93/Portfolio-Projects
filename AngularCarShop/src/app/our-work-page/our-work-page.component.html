@@ -7,8 +7,17 @@
     <p>A collection of cars we've renovated with passion</p>
   </div>
   <div class="images">
-    <a href="{{ pictures.link }}" data-lightbox="gallery"  *ngFor='let pictures of pictures'>
-      <div [ngStyle]="{
+    <div *ngFor='let pictures of pictures'[ngStyle]="{
+      background:'url('+pictures.link+') no-repeat center center',
+      backgroundSize: 'cover',
+      display: 'inline-flex',
+      color: 'blue',
+      flexDirection: 'row',
+      width:'30%',
+      height: '20vw'
+    }" (click)="open(i)"></div>
+    <!-- <a href="{{ pictures.link }}" data-lightbox="gallery"  *ngFor='let pictures of pictures' [ngStyle]="{pointerEvents: none}">
+      <div *ngFor='let pictures of pictures'[ngStyle]="{
         background:'url('+pictures.link+') no-repeat center center',
         backgroundSize: 'cover',
         display: 'inline-flex',
@@ -16,10 +25,10 @@
         flexDirection: 'row',
         width:'30%',
         height: '20vw'
-      }"></div>
+      }" (click)="open(i)"></div>
       <!-- <div [style.backgroundImage]="'url('+pictures.link+')'" [style.backgroundRepeat]="no-repeat" [style.background-position]="center" [style.width]="30+'%'" [style.height]="20+'vw'" [style.display]="inline-flex" [style.background-size]="cover"></div> -->
       <!-- <div style="display: -webkit-inline-box; display: -moz-inline-box; display: inline-flex; flex-direction: row; -webkit-flex-flow: column; width: 30%; height: 20vw; background: url({{ pictures.link }}) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div> -->
-    </a>
+    <!--</a> -->
     <!-- <a href="https://static.wixstatic.com/media/1e47b2_a47d3ecb672d4d34882deb39c2d0c314.jpg/v1/fill/w_753,h_502,al_c,q_90,usm_0.66_1.00_0.01/1e47b2_a47d3ecb672d4d34882deb39c2d0c314.webp" data-lightbox="gallery">
       <div style="display: -webkit-inline-box; display: -moz-inline-box; display: -ms-inline-flexbox; display: -webkit-inline-flex; display: inline-flex;
       flex-direction: row; -webkit-flex-flow: column; width: 30%; height: 20vw; background: url(https://static.wixstatic.com/media/1e47b2_a47d3ecb672d4d34882deb39c2d0c314.jpg/v1/fill/w_753,h_502,al_c,q_90,usm_0.66_1.00_0.01/1e47b2_a47d3ecb672d4d34882deb39c2d0c314.webp) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>

@@ -1,10 +1,10 @@
 import { Pictures } from './our-work';
 
 export const PICTURES: Pictures[] = [
-  { img: 1, link: '../assets/ourworkimgone.png'},
-  { img: 2, link: '../assets/ourworkimgtwo.png' },
-  { img: 3, link: '../assets/ourworkimgthree.png' },
-  { img: 4, link: '../assets/ourworkimgfour.png' },
-  { img: 5, link: '../assets/ourworkimgfive.png' },
-  { img: 6, link: '../assets/ourworkimgsix.png' }
+  { img: 1, link: '../assets/ourworkimg1.png'},
+  { img: 2, link: '../assets/ourworkimg2.png' },
+  { img: 3, link: '../assets/ourworkimg3.png' },
+  { img: 4, link: '../assets/ourworkimg4.png' },
+  { img: 5, link: '../assets/ourworkimg5.png' },
+  { img: 6, link: '../assets/ourworkimg6.png' }
 ]
