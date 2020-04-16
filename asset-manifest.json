@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hat-shop/static/css/main.e79f7816.chunk.css",
+    "main.js": "/hat-shop/static/js/main.96c248e7.chunk.js",
+    "main.js.map": "/hat-shop/static/js/main.96c248e7.chunk.js.map",
+    "runtime-main.js": "/hat-shop/static/js/runtime-main.1a2cb605.js",
+    "runtime-main.js.map": "/hat-shop/static/js/runtime-main.1a2cb605.js.map",
+    "static/js/2.18c29513.chunk.js": "/hat-shop/static/js/2.18c29513.chunk.js",
+    "static/js/2.18c29513.chunk.js.map": "/hat-shop/static/js/2.18c29513.chunk.js.map",
+    "index.html": "/hat-shop/index.html",
+    "precache-manifest.e2b46d3504450158651783f1ff786244.js": "/hat-shop/precache-manifest.e2b46d3504450158651783f1ff786244.js",
+    "service-worker.js": "/hat-shop/service-worker.js",
+    "static/css/main.e79f7816.chunk.css.map": "/hat-shop/static/css/main.e79f7816.chunk.css.map",
+    "static/js/2.18c29513.chunk.js.LICENSE.txt": "/hat-shop/static/js/2.18c29513.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a2cb605.js",
+    "static/js/2.18c29513.chunk.js",
+    "static/css/main.e79f7816.chunk.css",
+    "static/js/main.96c248e7.chunk.js"
+  ]
+}
