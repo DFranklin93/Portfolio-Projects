@@ -1,0 +1,25 @@
+@media screen and (min-width: 992px) {
+  .product_page_container {
+    margin: 0 auto;
+    max-width: 87vw;
+  }
+
+  .form_buttons {
+    display: block;
+    width: 30%;
+  }
+
+  .testing {
+    width: 100%;
+  }
+
+  .info_and_returns_container .section p {
+    margin: 0 3rem 1rem 0;
+
+    font-size: 0.875rem;
+
+    line-height: 1.125rem;
+
+    letter-spacing: 0.16px;
+  }
+}

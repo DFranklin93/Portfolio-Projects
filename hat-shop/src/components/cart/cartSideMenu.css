@@ -1,0 +1,40 @@
+.base-cart {
+  background: #fff;
+  color: #000;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  width: 22%;
+  z-index: 1000;
+}
+
+.base-cart .cart #cart-header .row .side-menu-exit {
+  cursor: pointer;
+}
+
+.opened-cart {
+  right: 0px;
+  transition: ease-in-out 0.3s;
+  z-index: 1000;
+}
+
+.closed-cart {
+  right: -50vw;
+  transition: ease-in-out 0.3s;
+}
+
+#cart-header {
+  background: #181818;
+  border-left: 2px solid #bdbdbd;
+  color: #bdbdbd;
+  font-size: 1em;
+  font-weight: 600;
+  height: 5.4%;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#cart-body {
+  background: red;
+}

@@ -1,0 +1,99 @@
+div section .info {
+  background: #181818;
+  color: #bdbdbd;
+  padding: 60px 0 65px 0;
+}
+div section .info .infoWrapper .infoOne {
+  display: inline-block;
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 0 0 205px;
+  text-transform: capitalize;
+}
+div section .info .infoWrapper .infoOne p {
+  padding: 10px 0;
+}
+div section .info .infoWrapper .infoTwo {
+  display: inline-block;
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 0 0 90px;
+}
+div section .info .infoWrapper .infoTwo p {
+  padding: 10px;
+}
+div section .info .emailInput {
+  display: inline-block;
+  float: right;
+  padding: 50px 230px 0 0;
+}
+div section .info .emailInput input {
+  background: #181818;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 0 5px 0 0;
+  padding: 0 80px 11px 0;
+}
+div section .info .emailInput span {
+  background: #fff;
+  color: #181818;
+  cursor: pointer;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+div section .info .emailInput span:hover {
+  background: black;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+footer {
+  background: #2e2d2d;
+  color: #8f9797;
+  padding: 18px;
+  text-align: center;
+}
+footer a {
+  transition: 0.3s ease-in-out;
+}
+footer a:hover {
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  div section .info .infoWrapper {
+    text-align: center;
+  }
+  div section .info .infoWrapper .infoOne {
+    padding: 0 0 0 26px;
+  }
+  div section .info .infoWrapper .infoTwo {
+    padding: 0 0 30px 59px;
+  }
+  div section .info .emailInput {
+    float: none;
+    padding: 0;
+  }
+  div section .info .emailInput input {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  div section .info .emailInput {
+    padding: 9px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  div section .info .emailInput {
+    padding: 0 0 0 35px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  div section .info .emailInput {
+    padding: 15px 0 0 76px;
+  }
+}

@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Dark Seas Bill Fish Black Strapback Hat",
+    "images": [
+      "Dark-Seas-Bill-Fish-Black-Strapback-Hat-_291533-front-US.jpg",
+      "Dark-Seas-Bill-Fish-Black-Strapback-Hat-_291533-back-US.jpg"
+    ],
+    "id": "001",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 1, "medium": 2, "large": 13 }
+  },
+
+  {
+    "name": "Champion Classic Twill Amaranth Strapback Hat",
+    "images": [
+      "Champion-Classic-Twill-Amaranth-Strapback-Hat-_289865-front-US.jpg",
+      "Champion-Classic-Twill-Amaranth-Strapback-Hat-_289865-back-US.jpg"
+    ],
+    "id": "002",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 4, "medium": 15, "large": 14 }
+  },
+
+  {
+    "name": "Grizzly Late To The Game Strapback Hat",
+    "images": [
+      "Grizzly-Late-To-The-Game-Strapback-Hat--_291738-front-US.jpg",
+      "Grizzly-Late-To-The-Game-Strapback-Hat--_291738-back-US.jpg"
+    ],
+    "id": "003",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 13, "medium": 7, "large": 12 }
+  },
+
+  {
+    "name": "Loser Machine Co. Elswick Black Mesh Trucker Hat",
+    "images": [
+      "Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-front-US.jpg",
+      "Loser-Machine-Co.-Elswick-Black-Mesh-Trucker-Hat-_286079-back-US.jpg"
+    ],
+    "id": "004",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 12, "medium": 2, "large": 6 }
+  },
+
+  {
+    "name": "Brixton Jolt Black Trucker Hat",
+    "images": [
+      "Brixton-Jolt-Black-Trucker-Hat-_290849-front-US.jpg",
+      "Brixton-Jolt-Black-Trucker-Hat-_290849-back-US.jpg"
+    ],
+    "id": "005",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 6, "medium": 20, "large": 20 }
+  },
+
+  {
+    "name": "Brixton Obtuse II Black Snapback Hat",
+    "images": [
+      "Brixton-Obtuse-II-Black-Snapback-Hat--_299539-front-US.jpg",
+      "Brixton-Obtuse-II-Black-Snapback-Hat--_299539-back-US.jpg"
+    ],
+    "id": "006",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 4, "medium": 14, "large": 3 }
+  },
+
+  {
+    "name": "Dark Seas Carrier Green camo Snapback Hat",
+    "images": [
+      "Dark-Seas-Carrier-Green-camo-Snapback-Hat-_291532-front-US.jpg",
+      "Dark-Seas-Carrier-Green-camo-Snapback-Hat-_291532-back-US.jpg"
+    ],
+    "id": "007",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 17, "medium": 18, "large": 12 }
+  },
+
+  {
+    "name": "Dravus Sofa Black Five Panel Hat",
+    "images": [
+      "Dravus-Sofa-Black-Five-Panel-Hat-_293974-front-US.jpg",
+      "Dravus-Sofa-Black-Five-Panel-Hat-_293974-back-US.jpg"
+    ],
+    "id": "008",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 4, "medium": 6, "large": 20 }
+  },
+
+  {
+    "name": "Sweatshirt by Earl Sweatshirt White Strapback Hat",
+    "images": [
+      "Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-front-US.jpg",
+      "Sweatshirt-by-Earl-Sweatshirt-White-Strapback-Hat-_291292-back-US.jpg"
+    ],
+    "id": "009",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 18, "medium": 4, "large": 16 }
+  },
+
+  {
+    "name": "HUF Splattered Bleach Black Strapback Hat",
+    "images": [
+      "HUF-Splattered-Bleach-Black-Strapback-Hat-_291697-front-US.jpg",
+      "HUF-Splattered-Bleach-Black-Strapback-Hat-_291697-back-US.jpg"
+    ],
+    "id": "010",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 13, "medium": 19, "large": 14 }
+  },
+
+  {
+    "name": "4 Hunnid Rose Black Strapback Hat",
+    "images": [
+      "4-Hunnid-Rose-Black-Strapback-Hat-_298533-front-US.jpg",
+      "4-Hunnid-Rose-Black-Strapback-Hat-_298533-back-US.jpg"
+    ],
+    "id": "011",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 14, "medium": 14, "large": 20 }
+  },
+
+  {
+    "name": "Just Have Fun Classic Skate Mustard Strapback Hat",
+    "images": [
+      "Just-Have-Fun-Classic-Skate-Mustard-Strapback-Hat-_295070-front-US.jpg",
+      "Just-Have-Fun-Classic-Skate-Mustard-Strapback-Hat-_295070-back-US.jpg"
+    ],
+    "id": "012",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 20, "medium": 18, "large": 19 }
+  },
+
+  {
+    "name": "Brixton Rival Black & White Trucker Hat",
+    "images": [
+      "Brixton-Rival-Black-&-White-Trucker-Hat-_290848-front-US.jpg",
+      "Brixton-Rival-Black-&-White-Trucker-Hat-_290848-back-US.jpg"
+    ],
+    "id": "013",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 7, "medium": 13, "large": 19 }
+  },
+
+  {
+    "name": "Champion Twill Mesh Navy Snapback Hat",
+    "images": [
+      "Champion-Twill-Mesh-Navy-Snapback-Hat-_289870-front-US.jpg",
+      "Champion-Twill-Mesh-Navy-Snapback-Hat-_289870-back-US.jpg"
+    ],
+    "id": "014",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 15, "medium": 10, "large": 9 }
+  },
+
+  {
+    "name": "Grizzly Antique OG Bear Strapback Hat",
+    "images": [
+      "Dravus-Sofa-Black-Five-Panel-Hat-_293974-front-US.jpg",
+      "Dravus-Sofa-Black-Five-Panel-Hat-_293974-back-US.jpg"
+    ],
+    "id": "015",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 17, "medium": 16, "large": 11 }
+  },
+
+  {
+    "name": "Petals by Petals & Peacocks Heal The World White Strapback Hat",
+    "images": [
+      "Petals-by-Petals-&-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-front-US.jpg",
+      "Petals-by-Petals-&-Peacocks-Heal-The-World-White-Strapback-Hat-_294782-back-US.jpg"
+    ],
+    "id": "016",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 17, "medium": 17, "large": 18 }
+  },
+
+  {
+    "name": "Brixton Grade Camo Trucker Hat",
+    "images": [
+      "Brixton-Grade-Camo-Trucker-Hat--_290845-front-US.jpg",
+      "Brixton-Grade-Camo-Trucker-Hat--_290845-back-US.jpg"
+    ],
+    "id": "017",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 6, "medium": 6, "large": 4 }
+  },
+
+  {
+    "name": "HUF Splattered Bleach Red Strapback Hat",
+    "images": [
+      "HUF-Splattered-Bleach-Red-Strapback-Hat-_291691-front-US.jpg",
+      "HUF-Splattered-Bleach-Red-Strapback-Hat-_291691-back-US.jpg"
+    ],
+    "id": "018",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 13, "medium": 14, "large": 7 }
+  },
+
+  {
+    "name": "Vans Sketch Tape Black Strapback Hat",
+    "images": [
+      "Vans-Sketch-Tape-Black-Strapback-Hat-_291271-front-US.jpg",
+      "Vans-Sketch-Tape-Black-Strapback-Hat-_291271-back-US.jpg"
+    ],
+    "id": "019",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 2, "medium": 12, "large": 7 }
+  },
+
+  {
+    "name": "Nike SB Red, White &amp; Blue Trucker Hat",
+    "images": [
+      "Nike-SB-Red,-White-&amp;-Blue-Trucker-Hat-_284771-front-US.jpg",
+      "Nike-SB-Red,-White-&amp;-Blue-Trucker-Hat-_284771-back-US.jpg"
+    ],
+    "id": "020",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 10, "medium": 19, "large": 12 }
+  },
+
+  {
+    "name": "Nike SB Black & Light Bone Camo Snapback Hat",
+    "images": [
+      "Nike-SB-Black-&-Light-Bone-Camo-Snapback-Hat-_289721-front-US.jpg",
+      "Nike-SB-Black-&-Light-Bone-Camo-Snapback-Hat-_289721-back-US.jpg"
+    ],
+    "id": "021",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 20, "medium": 18, "large": 4 }
+  },
+
+  {
+    "name": "Just Have Fun Happy Place White & Navy Strapback Hat",
+    "images": [
+      "Just-Have-Fun-Happy-Place-White-&-Navy-Strapback-Hat-_295073-front-US.jpg",
+      "Just-Have-Fun-Happy-Place-White-&-Navy-Strapback-Hat-_295073-back-US.jpg"
+    ],
+    "id": "022",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 0, "medium": 18, "large": 17 }
+  },
+
+  {
+    "name": "HUF Metal H Black Strapback Hat",
+    "images": [
+      "HUF-Metal-H-Black-Strapback-Hat-_291695-front-US.jpg",
+      "HUF-Metal-H-Black-Strapback-Hat-_291695-back-US.jpg"
+    ],
+    "id": "023",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 14, "medium": 8, "large": 17 }
+  },
+
+  {
+    "name": "Sweatshirt by Earl Sweatshirt Earl Varsity Black Strapback Hat",
+    "images": [
+      "Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-front-US.jpg",
+      "Sweatshirt-by-Earl-Sweatshirt-Earl-Varsity-Black-Strapback-Hat-_291295-back-US.jpg"
+    ],
+    "id": "024",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 15, "medium": 2, "large": 14 }
+  },
+
+  {
+    "name": "Vans Worldwide Ambrosia Snapback Hat",
+    "images": [
+      "Vans-Worldwide-Ambrosia-Snapback-Hat-_291272-front-US.jpg",
+      "Vans-Worldwide-Ambrosia-Snapback-Hat-_291272-back-US.jpg"
+    ],
+    "id": "025",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 16, "medium": 6, "large": 11 }
+  },
+
+  {
+    "name": "Obey 90s Jumble Black & Tan Snapback Hat",
+    "images": [
+      "Obey-90s-Jumble-Black-&-Tan-Snapback-Hat-_291280-front-US.jpg",
+      "Obey-90s-Jumble-Black-&-Tan-Snapback-Hat-_291280-back-US.jpg"
+    ],
+    "id": "026",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 3, "medium": 14, "large": 8 }
+  },
+
+  {
+    "name": "Vans Rowley Dress Blue & Black Snapback Hat",
+    "images": [
+      "Vans-Rowley-Dress-Blue-&-Black-Snapback-Hat-_291265-front-US.jpg",
+      "Vans-Rowley-Dress-Blue-&-Black-Snapback-Hat-_291265-back-US.jpg"
+    ],
+    "id": "027",
+    "price": 24.99,
+    "newArrival": true,
+    "sizes": { "small": 12, "medium": 18, "large": 18 }
+  },
+
+  {
+    "name": "The Hundreds Broadway Indigo Strapback Hat",
+    "images": [
+      "The-Hundreds-Broadway-Indigo-Strapback-Hat-_291673-front-US.jpg",
+      "The-Hundreds-Broadway-Indigo-Strapback-Hat-_291673-back-US.jpg"
+    ],
+    "id": "028",
+    "price": 24.99,
+    "newArrival": false,
+    "sizes": { "small": 16, "medium": 18, "large": 6 }
+  }
+]

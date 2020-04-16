@@ -1,0 +1,36 @@
+.base-menu {
+  background: #fff;
+  color: #000;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  width: 22%;
+  z-index: 1000;
+  right: 0px;
+}
+
+#menu-list {
+  background: black;
+}
+
+/* #menu-list {
+  list-style: none;
+  position: fixed;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: #111 !important;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+} */
+
+#menu-list ul li {
+  padding: 10px 30px 10px 10px;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}

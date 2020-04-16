@@ -1,0 +1,27 @@
+.base-cart {
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.opened-cart {
+  background: blue;
+  right: 0px;
+  transition: ease-in-out 0.3s;
+  width: 22%;
+}
+
+.closed-cart {
+  background: none;
+  right: -5vw;
+  transition: ease-in-out 0.3s;
+  width: 0;
+}
+
+#cart-header {
+  background: white;
+}
+
+#cart-body {
+  background: red;
+}
